@@ -137,6 +137,7 @@ function viewDepartments() {
 }
 
 //See who works for each department
+
 function viewEmployeesByDepartment() {
   db.seeAllDepartments()
     .then(([rows]) => {
