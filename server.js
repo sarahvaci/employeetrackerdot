@@ -109,6 +109,7 @@ function seePromptUser() {
 }
 
 // View all employees, all roles, all departments
+
 function viewEmployees() {
   db.seeAllEmployees()
     .then(([rows]) => {

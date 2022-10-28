@@ -3,7 +3,7 @@ const connection = require ("../db/connection");
 
 class DB {
    
-// Keeping track of the class's connection in case we need it later
+// Keeping track of the class's  connection in case we need it later
 constructor(connection) {
     this.connection = connection;
   }
