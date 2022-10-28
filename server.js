@@ -8,6 +8,8 @@ require('console.table');
 init();
 
 //Show text from main prompts
+
+
 function init() {
   const seeText = see({ name: "Employee Manager", borderColor: "bold-blue"}).render();
 
